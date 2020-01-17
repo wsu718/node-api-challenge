@@ -80,7 +80,5 @@ router.put('/:id', validateProjectId, validateHasBody, (req, res) => {
         })
 });
 
-
-
 module.exports = router;
 
