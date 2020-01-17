@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express has a lot of middleware built-in and can be expanded a lot with 3rd party or custom middleware. 
+
 - [ ] Describe Middleware?
+
+Middleware is essentially an array of functions that get executed in the order they are introduced into the server code.
 
 - [ ] Describe a Resource?
 
+A resource is an object with a type, associated data, relationships to other resources, and a set of methods that operate on it.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+HTTP Response Status Codes
+
 - [ ] How can we partition our application into sub-applications?
+
+We use Express router to break the application into separate files.
 
 ## Minimum Viable Product
 
